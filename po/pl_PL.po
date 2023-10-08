@@ -1,0 +1,596 @@
+#
+# awumii <awumii@protonmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: resources\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-25 15:51+0100\n"
+"PO-Revision-Date: 2023-07-27 17:01+0200\n"
+"Last-Translator: awumii <awumii@protonmail.com>\n"
+"Language-Team: Polish - Poland <awumii@protonmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: data/me.nalux.Resources.desktop.in.in:3
+#: data/me.nalux.Resources.metainfo.xml.in.in:6 src/application.rs:112
+msgid "Resources"
+msgstr "Zasoby"
+
+#: data/me.nalux.Resources.desktop.in.in:4
+#: data/me.nalux.Resources.metainfo.xml.in.in:7
+msgid "Monitor your Resources and Processes"
+msgstr "Monitoruj swoje zasoby oraz procesy"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/me.nalux.Resources.desktop.in.in:10
+msgid ""
+"System;Resources;Monitor;Processes;Usage;Task;Manager;CPU;RAM;Memory;GPU;"
+msgstr ""
+"System;Zasoby;Monitor;Procesy;Wykorzystanie;Zadań;Menadżer;CPU;RAM;Pamięć;"
+"GPU;"
+
+#: data/me.nalux.Resources.metainfo.xml.in.in:9
+msgid "A simple yet powerful monitor for your system resources and processes."
+msgstr "Prosty lecz potężny monitor dla zasobów i procesów systemu."
+
+#: data/resources/ui/dialogs/app_dialog.ui:9
+msgid "Application Information"
+msgstr "Informacje o programie"
+
+#: data/resources/ui/dialogs/app_dialog.ui:71
+#: data/resources/ui/dialogs/process_dialog.ui:54
+#: data/resources/ui/pages/cpu.ui:49 data/resources/ui/pages/cpu.ui:62
+#: data/resources/ui/pages/drive.ui:30 data/resources/ui/pages/gpu.ui:30
+#: data/resources/ui/pages/memory.ui:30 data/resources/ui/pages/network.ui:31
+msgid "Usage"
+msgstr "Wykorzystanie"
+
+#: data/resources/ui/dialogs/app_dialog.ui:74
+#: data/resources/ui/dialogs/process_dialog.ui:57
+#: data/resources/ui/window.ui:77 src/ui/pages/applications.rs:215
+#: src/ui/pages/processes.rs:287
+msgid "Processor"
+msgstr "Procesor"
+
+#: data/resources/ui/dialogs/app_dialog.ui:79
+#: data/resources/ui/dialogs/process_dialog.ui:62
+#: data/resources/ui/pages/memory.ui:22 data/resources/ui/window.ui:85
+#: src/ui/pages/applications.rs:182 src/ui/pages/memory.rs:76
+#: src/ui/pages/processes.rs:254
+msgid "Memory"
+msgstr "Pamięć"
+
+#: data/resources/ui/dialogs/app_dialog.ui:86
+#: data/resources/ui/dialogs/process_dialog.ui:69
+#: data/resources/ui/pages/cpu.ui:84 data/resources/ui/pages/drive.ui:48
+#: data/resources/ui/pages/gpu.ui:61 data/resources/ui/pages/memory.ui:50
+#: data/resources/ui/pages/network.ui:52
+msgid "Properties"
+msgstr "Właściwości"
+
+#: data/resources/ui/dialogs/app_dialog.ui:89
+msgid "ID"
+msgstr "ID"
+
+#: data/resources/ui/dialogs/app_dialog.ui:94
+msgid "Running Processes"
+msgstr "Działające procesy"
+
+#: data/resources/ui/dialogs/app_dialog.ui:99
+#: data/resources/ui/dialogs/process_dialog.ui:92
+msgid "Containerized"
+msgstr "W kontenerze"
+
+#: data/resources/ui/dialogs/process_dialog.ui:9
+msgid "Process Information"
+msgstr "Informacje o procesie"
+
+#: data/resources/ui/dialogs/process_dialog.ui:72 src/ui/pages/processes.rs:187
+msgid "Process ID"
+msgstr "Identyfikator"
+
+#: data/resources/ui/dialogs/process_dialog.ui:77
+msgid "Commandline"
+msgstr "Polecenie"
+
+#: data/resources/ui/dialogs/process_dialog.ui:82 src/ui/pages/processes.rs:219
+msgid "User"
+msgstr "Użytkownik"
+
+#: data/resources/ui/dialogs/process_dialog.ui:87
+msgid "Control Group"
+msgstr "Grupa kontrolna"
+
+#: data/resources/ui/pages/applications.ui:6 src/ui/pages/applications.rs:487
+msgid "Kill Application"
+msgstr "Zabij program"
+
+#: data/resources/ui/pages/applications.ui:10 src/ui/pages/applications.rs:523
+msgid "Halt Application"
+msgstr "Wstrzymaj program"
+
+#: data/resources/ui/pages/applications.ui:14
+msgid "Continue Application"
+msgstr "Wznów program"
+
+#: data/resources/ui/pages/applications.ui:81 src/ui/pages/applications.rs:451
+msgid "End Application"
+msgstr "Zakończ program"
+
+#: data/resources/ui/pages/cpu.ui:30
+msgid "Options"
+msgstr "Opcje"
+
+#: data/resources/ui/pages/cpu.ui:33
+msgid "Show Usages of Logical CPUs"
+msgstr "Pokaż wykorzystanie logicznych procesorów"
+
+#: data/resources/ui/pages/cpu.ui:84
+msgid "Sensors"
+msgstr "Czujniki"
+
+#: data/resources/ui/pages/cpu.ui:97
+msgid "Max Frequency"
+msgstr "Maks. częstotliwość"
+
+#: data/resources/ui/pages/cpu.ui:102
+msgid "Logical Cores"
+msgstr "Rdzenie logiczne"
+
+#: data/resources/ui/pages/cpu.ui:107
+msgid "Physical Cores"
+msgstr "Rdzenie fizyczne"
+
+#: data/resources/ui/pages/cpu.ui:112
+msgid "Sockets"
+msgstr "Gniazda"
+
+#: data/resources/ui/pages/cpu.ui:117
+msgid "Virtualization"
+msgstr "Wirtualizacja"
+
+#: data/resources/ui/pages/cpu.ui:122
+msgid "Architecture"
+msgstr "Architektura"
+
+#: data/resources/ui/pages/drive.ui:36
+msgid "Read Speed"
+msgstr "Szybkość odczytu"
+
+#: data/resources/ui/pages/drive.ui:41
+msgid "Write Speed"
+msgstr "Szybkość zapisu"
+
+#: data/resources/ui/pages/memory.ui:9
+msgid "You need to authenticate to see memory properties"
+msgstr "Wymagana autoryzacja aby wyświetlić właściwości pamięci"
+
+#: data/resources/ui/pages/memory.ui:10
+msgid "Authenticate"
+msgstr "Autoryzuj"
+
+#: data/resources/ui/pages/drive.ui:51 data/resources/ui/pages/memory.ui:68
+msgid "Type"
+msgstr "Typ"
+
+#: data/resources/ui/pages/drive.ui:56
+msgid "Device"
+msgstr "Urządzenie"
+
+#: data/resources/ui/pages/drive.ui:61
+msgid "Capacity"
+msgstr "Pojemność"
+
+#: data/resources/ui/pages/drive.ui:66
+msgid "Writable"
+msgstr "Do odczytu"
+
+#: data/resources/ui/pages/drive.ui:71
+msgid "Removable"
+msgstr "Usuwalny"
+
+#: data/resources/ui/pages/gpu.ui:39
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: data/resources/ui/pages/gpu.ui:44
+msgid "Power Usage"
+msgstr "Wykorzystanie energii"
+
+#: data/resources/ui/pages/gpu.ui:49
+msgid "GPU Frequency"
+msgstr "Częstotliwość GPU"
+
+#: data/resources/ui/pages/gpu.ui:54
+msgid "Video Memory Frequency"
+msgstr "Częstotliwość pamięci wideo"
+
+#: data/resources/ui/pages/gpu.ui:64 data/resources/ui/pages/network.ui:55
+msgid "Manufacturer"
+msgstr "Producent"
+
+#: data/resources/ui/pages/gpu.ui:69
+msgid "PCI Slot"
+msgstr "Slot PCI"
+
+#: data/resources/ui/pages/gpu.ui:74 data/resources/ui/pages/network.ui:60
+msgid "Driver Used"
+msgstr "Sterownik"
+
+#: data/resources/ui/pages/gpu.ui:79
+msgid "Current Power Cap"
+msgstr "Ustawiony limit energii"
+
+#: data/resources/ui/pages/gpu.ui:84
+msgid "Max Power Cap"
+msgstr "Maks. limit energii"
+
+#: data/resources/ui/pages/memory.ui:53
+msgid "Slots Used"
+msgstr "Użyte sloty"
+
+#: data/resources/ui/pages/memory.ui:58
+msgid "Speed"
+msgstr "Szybkość"
+
+#: data/resources/ui/pages/memory.ui:63
+msgid "Form Factor"
+msgstr ""
+
+#: data/resources/ui/pages/memory.ui:73
+msgid "Type Detail"
+msgstr "Szczegóły typu"
+
+#: data/resources/ui/pages/network.ui:40
+msgid "Total Received"
+msgstr "Łącznie odebrano"
+
+#: data/resources/ui/pages/network.ui:45
+msgid "Total Sent"
+msgstr "Łącznie wysłano"
+
+#: data/resources/ui/pages/network.ui:65
+msgid "Interface"
+msgstr "Interfejs"
+
+#: data/resources/ui/pages/network.ui:70
+msgid "Hardware Address"
+msgstr "Adres sprzętowy"
+
+#: data/resources/ui/pages/processes.ui:6 src/ui/pages/processes.rs:536
+msgid "Kill Process"
+msgstr "Zabij proces"
+
+#: data/resources/ui/pages/processes.ui:10 src/ui/pages/processes.rs:563
+msgid "Halt Process"
+msgstr "Wstrzymaj proces"
+
+#: data/resources/ui/pages/processes.ui:14
+msgid "Continue Process"
+msgstr "Wznów proces"
+
+#: data/resources/ui/pages/processes.ui:81 src/ui/pages/processes.rs:509
+msgid "End Process"
+msgstr "Zakończ proces"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ogólne"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Wyświetl skróty"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Zakończ"
+
+#: data/resources/ui/window.ui:6
+msgid "Preferences"
+msgstr "Ustawienia"
+
+#: data/resources/ui/window.ui:10
+msgid "Keyboard Shortcuts"
+msgstr "Skróty klawiszowe"
+
+#: data/resources/ui/window.ui:14
+msgid "About Resources"
+msgstr "O programie"
+
+#: data/resources/ui/window.ui:61
+msgid "Applications"
+msgstr "Programy"
+
+#: data/resources/ui/window.ui:69
+msgid "Processes"
+msgstr "Procesy"
+
+#: src/application.rs:114
+msgid "The Nalux Team"
+msgstr "Zespół Nalux"
+
+#: src/application.rs:122
+msgid "Report Issues"
+msgstr "Zgłoś problemy"
+
+#: src/application.rs:126
+msgid "Icon by"
+msgstr "Ikona stworzona przez"
+
+#: src/ui/dialogs/app_dialog.rs:93 src/ui/dialogs/app_dialog.rs:95
+#: src/ui/dialogs/app_dialog.rs:109 src/ui/dialogs/process_dialog.rs:91
+#: src/ui/dialogs/process_dialog.rs:93 src/ui/dialogs/process_dialog.rs:103
+#: src/ui/dialogs/process_dialog.rs:105 src/ui/pages/cpu.rs:107
+#: src/ui/pages/cpu.rs:110 src/ui/pages/cpu.rs:123 src/ui/pages/cpu.rs:138
+#: src/ui/pages/cpu.rs:151 src/ui/pages/cpu.rs:157 src/ui/pages/cpu.rs:163
+#: src/ui/pages/cpu.rs:167 src/ui/pages/cpu.rs:170 src/ui/pages/drive.rs:113
+#: src/ui/pages/gpu.rs:115 src/ui/pages/gpu.rs:132 src/ui/pages/gpu.rs:145
+#: src/ui/pages/gpu.rs:152 src/ui/pages/gpu.rs:154 src/ui/pages/gpu.rs:160
+#: src/ui/pages/gpu.rs:167 src/ui/pages/gpu.rs:170 src/ui/pages/gpu.rs:172
+#: src/ui/pages/memory.rs:125 src/ui/pages/memory.rs:129
+#: src/ui/pages/memory.rs:133 src/ui/pages/memory.rs:173
+#: src/ui/pages/network.rs:90 src/ui/pages/network.rs:92
+#: src/ui/pages/network.rs:97 src/ui/pages/network.rs:100 src/utils/gpu.rs:81
+#: src/utils/gpu.rs:84
+msgid "N/A"
+msgstr "N/A"
+
+#: src/ui/dialogs/app_dialog.rs:112 src/ui/dialogs/process_dialog.rs:108
+#: src/ui/widgets/bool_box.rs:70
+msgid "No"
+msgstr "Nie"
+
+#: src/ui/dialogs/app_dialog.rs:113 src/ui/dialogs/process_dialog.rs:109
+msgid "Yes (Flatpak)"
+msgstr "Tak (Flatpak)"
+
+#: src/ui/pages/applications.rs:147
+msgid "Application"
+msgstr "Program"
+
+#: src/ui/pages/applications.rs:448 src/ui/pages/processes.rs:506
+msgid "End {}?"
+msgstr "Zakończyć {}?"
+
+#: src/ui/pages/applications.rs:449 src/ui/pages/processes.rs:507
+msgid "Unsaved work might be lost."
+msgstr "Niezapisana praca zostanie utracona."
+
+#: src/ui/pages/applications.rs:454 src/ui/pages/applications.rs:490
+#: src/ui/pages/applications.rs:526 src/ui/pages/processes.rs:512
+#: src/ui/pages/processes.rs:539 src/ui/pages/processes.rs:566
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/ui/pages/applications.rs:464 src/ui/pages/processes.rs:518
+msgid "Successfully ended {}"
+msgstr "Zakończono {}"
+
+#: src/ui/pages/applications.rs:466
+msgid "There was a problem ending a process"
+msgid_plural "There were problems ending {} processes"
+msgstr[0] "Wystąpił problem podczas kończenia procesu"
+msgstr[1] "Wystąpił problem podczas kończenia {} procesów"
+msgstr[2] "Wystąpił problem podczas kończenia {} procesów"
+
+#: src/ui/pages/applications.rs:484 src/ui/pages/processes.rs:533
+msgid "Kill {}?"
+msgstr "Zabić {}?"
+
+#: src/ui/pages/applications.rs:485
+msgid ""
+"Killing an application can come with serious risks such as losing data and "
+"security implications. Use with caution."
+msgstr ""
+"Zabicie programu może nieść ze sobą ryzyko utraty danych lub naruszenie "
+"bezpieczeństwa. Używaj z rozwagą."
+
+#: src/ui/pages/applications.rs:500 src/ui/pages/processes.rs:545
+msgid "Successfully killed {}"
+msgstr "Zabito {}"
+
+#: src/ui/pages/applications.rs:502
+msgid "There was a problem killing a process"
+msgid_plural "There were problems killing {} processes"
+msgstr[0] "Wystąpił problem podczas zabijania procesu"
+msgstr[1] "Wystąpił problem podczas zabijania {} procesów"
+msgstr[2] "Wystąpił problem podczas zabijania {} procesów"
+
+#: src/ui/pages/applications.rs:520 src/ui/pages/processes.rs:560
+msgid "Halt {}?"
+msgstr "Wstrzymać {}?"
+
+#: src/ui/pages/applications.rs:521
+msgid ""
+"Halting an application can come with serious risks such as losing data and "
+"security implications. Use with caution."
+msgstr ""
+"Wstrzymanie programu może nieść ze sobą ryzyko utraty danych lub naruszenie "
+"bezpieczeństwa. Używaj z rozwagą."
+
+#: src/ui/pages/applications.rs:536 src/ui/pages/processes.rs:572
+msgid "Successfully halted {}"
+msgstr "Wstrzymano {}"
+
+#: src/ui/pages/applications.rs:538
+msgid "There was a problem halting a process"
+msgid_plural "There were problems halting {} processes"
+msgstr[0] "Wystąpił problem podczas kończenia procesu"
+msgstr[1] "Wystąpił problem podczas kończenia {} procesów"
+msgstr[2] "Wystąpił problem podczas kończenia {} procesów"
+
+#: src/ui/pages/applications.rs:558 src/ui/pages/processes.rs:588
+msgid "Successfully continued {}"
+msgstr "Wznowiono {}"
+
+#: src/ui/pages/applications.rs:560
+msgid "There was a problem continuing a process"
+msgid_plural "There were problems continuing {} processes"
+msgstr[0] "Wystąpił problem podczas wznawiania procesu"
+msgstr[1] "Wystąpił problem podczas wznawiania {} procesów"
+msgstr[2] "Wystąpił problem podczas wznawiania {} procesów"
+
+#: src/ui/pages/cpu.rs:109
+msgid "CPU"
+msgstr "CPU"
+
+#: src/ui/pages/cpu.rs:122
+msgid "CPU {}"
+msgstr "CPU {}"
+
+#: src/ui/pages/drive.rs:107
+msgid "eMMC Storage"
+msgstr "Dysk eMMC"
+
+#: src/ui/pages/drive.rs:108
+msgid "Flash Storage"
+msgstr "Dysk Flash"
+
+#: src/ui/pages/drive.rs:109
+msgid "Floppy Drive"
+msgstr "Dyskietka"
+
+#: src/ui/pages/drive.rs:110
+msgid "Hard Disk Drive"
+msgstr "Dysk Twardy"
+
+#: src/ui/pages/drive.rs:111
+msgid "NVMe Drive"
+msgstr "Dysk NVMe"
+
+#: src/ui/pages/drive.rs:113
+msgid "Solid State Drive"
+msgstr "Dysk SSD"
+
+#: src/ui/pages/gpu.rs:104
+msgid "GPU Usage"
+msgstr "Wykorzystanie GPU"
+
+#: src/ui/pages/gpu.rs:107
+msgid "Video Memory Usage"
+msgstr "Wykorzystanie pamięci wideo"
+
+#: src/ui/pages/gpu.rs:112 src/ui/window.rs:176
+msgid "GPU {}"
+msgstr "GPU {}"
+
+#: src/ui/pages/memory.rs:79
+msgid "Swap"
+msgstr "Pamięć wymiany"
+
+#: src/ui/pages/memory.rs:135
+msgid "{} of {}"
+msgstr "{} z {}"
+
+#: src/ui/pages/network.rs:89
+msgid "Receiving"
+msgstr "Odbieranie"
+
+#: src/ui/pages/network.rs:93
+msgid "Sending"
+msgstr "Wysyłanie"
+
+#: src/ui/pages/network.rs:135 src/ui/pages/network.rs:138
+msgid "Highest:"
+msgstr "Najwięcej:"
+
+#: src/ui/pages/processes.rs:121
+msgid "root"
+msgstr "root"
+
+#: src/ui/pages/processes.rs:152
+msgid "Process"
+msgstr "Proces"
+
+#: src/ui/pages/processes.rs:519
+msgid "There was a problem ending {}"
+msgstr "Wystąpił problem podczas kończenia {}"
+
+#: src/ui/pages/processes.rs:534
+msgid ""
+"Killing a process can come with serious risks such as losing data and "
+"security implications. Use with caution."
+msgstr ""
+"Zabicie procesu może nieść ze sobą ryzyko utraty danych lub naruszenie "
+"bezpieczeństwa. Używaj z rozwagą."
+
+#: src/ui/pages/processes.rs:546
+msgid "There was a problem killing {}"
+msgstr "Wystąpił problem podczas zabijania {}"
+
+#: src/ui/pages/processes.rs:561
+msgid ""
+"Halting a process can come with serious risks such as losing data and "
+"security implications. Use with caution."
+msgstr ""
+"Wstrzymanie procesu może nieść ze sobą ryzyko utraty danych lub naruszenie "
+"bezpieczeństwa. Używaj z rozwagą."
+
+#: src/ui/pages/processes.rs:573
+msgid "There was a problem halting {}"
+msgstr "Wystąpił problem podczas wznawiania {}"
+
+#: src/ui/pages/processes.rs:594
+msgid "There was a problem continuing {}"
+msgstr "Wystąpił problem podczas wznawiania {}"
+
+#: src/ui/widgets/bool_box.rs:68
+msgid "Yes"
+msgstr "Tak"
+
+#: src/ui/window.rs:180
+msgid "GPU"
+msgstr "GPU"
+
+#: src/ui/window.rs:349 src/ui/pages/drive.rs:106
+msgid "CD/DVD/Blu-ray Drive"
+msgstr "Dysk CD/DVD/Blu-ray"
+
+#: src/ui/window.rs:355
+msgid "{} {}B Drive"
+msgstr "Dysk {} {}B"
+
+#: src/ui/window.rs:249
+msgid "Ethernet Connection"
+msgstr "Połączenie Ethernet"
+
+#: src/ui/window.rs:250
+msgid "InfiniBand Connection"
+msgstr "Połączenie InfiniBand"
+
+#: src/ui/window.rs:251
+msgid "Serial Line IP Connection"
+msgstr "Połączenie Serial Line IP"
+
+#: src/ui/window.rs:252
+msgid "Wi-Fi Connection"
+msgstr "Połączenie Wi-Fi"
+
+#: src/ui/window.rs:253
+msgid "WWAN Connection"
+msgstr "Połączenie WWAN"
+
+#: src/ui/window.rs:254
+msgid "Bluetooth Tether"
+msgstr "Tethering przez Bluetooth"
+
+#: src/ui/window.rs:255
+msgid "VPN Tunnel (WireGuard)"
+msgstr "Tunel VPN (WireGuard)"
+
+#: src/ui/window.rs:256
+msgid "Network Interface"
+msgstr "Interfejs sieciowy"
+
+#: src/utils/processes.rs:664
+msgid "System Processes"
+msgstr "Procesy systemowe"
